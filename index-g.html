@@ -1,0 +1,386 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="head icon" href="cloud-icon.png">
+
+  <!--Remember to do this later -->
+  <meta name="description" content="Photograpghy gallery of Mohammad Bakhshi art work">
+  <meta name="keywords" content="Photograpghy, Gallery, Street photography">
+  <meta name="author" content="Mohammad Bakhshi محمد بخشی">
+ 
+  
+  <!--Fonts : Menu + Top logo -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,600;1,300&display=swap" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" rel="stylesheet"
+
+
+
+
+
+<!-- this is unecessary but check Jquery-->
+<!--
+<link rel="stylesheet" href="css/jquery-ui.css">
+-->
+
+<!--delete this, i didnt do it now because its file is in css-->
+<!--
+<link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
+-->
+
+
+<link rel="stylesheet" href="css/bootstrap.min.css">
+
+<!--this is for refresh animation -->
+<link rel="stylesheet" href="css/aos.css">
+
+
+<!--this is for showing the images-->
+  <link rel="stylesheet" href="css/fancybox.min.css">
+
+
+<!--this is literally everthing-->
+  <link rel="stylesheet" href="css/style.css">
+
+
+  <title>Mohammad Bakhshi Gallery</title>
+
+</head>
+
+
+
+<body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+
+
+  <div class="site-mobile-menu site-navbar-target"></div>
+    
+
+      <!--
+         <div class="site-mobile-menu-close mt-3">
+        <div class="site-mobile-menu-header"></div>
+       <span class="icon-close2 js-menu-toggle"></span>
+           <div class="site-mobile-menu-body"></div>
+
+      -->
+
+
+      <!--PUT lOGO here-->
+      <header class="header-bar  site-navbar-target">
+        <div>
+          
+</div>
+
+
+      <!--
+      <div class="d-inline-block d-lg-none ml-md-0 ml-auto py-3" style="position: relative; top: 3px;"><a href="#" class="site-menu-toggle js-menu-toggle "><span class="icon-menu h3"></span></a></div>
+      -->
+
+
+
+
+      <!--QUESTION ???
+        Why we have ID for each item below?
+        what is nav-link class?
+      -->
+      <div class="main-menu">
+        <ul>
+          <li><a href="cloud-icon.png"></a></li>
+            <img src="cloud-icon.png" alt="Image" style="padding-bottom:75px; line-height:0%">
+        </ul>
+        <ul  class="js-clone-nav">
+          <li><a href="#section-home" class="nav-link" style="font-family:sans-serif; font-size:14px" >Home</a></li>
+          <li><a href="#section-photos" class="nav-link" style="font-family:arial; font-size:14px" >Photos</a></li>
+          <li><a href="#section-about" class="nav-link" style="font-family:sans-serif; font-size:14px">About</a></li>
+          <li><a href="#section-contact" class="nav-link" style="font-family:sans-serif; font-size:14px">More</a></li>
+
+          <!--
+          <li><a href="#section-testimonial" class="nav-link">Testimonial</a></li>
+          <li><a href="#section-blog" class="nav-link">Blog</a></li>
+          -->  
+        </ul>
+        
+        <!--QUESTION???
+        What is js-clone-nav?
+        -->
+        <ul class="social js-clone-nav">
+          <li><a href="https://www.instagram.com/asemanemo"><span class="icon-instagram"></span></a></li>
+        </ul>
+      </div>
+
+    </header> 
+    <main class="main-content">
+      
+      <!-- QUESTIONM???
+        Header background 
+        Dont really know how to-->
+      
+
+      <!--Defining the classes for background image 
+      + Font
+      -->
+      <section 
+      class="home-bg mb-5"  id="section-home">
+        <div class="row justify-content-center align-items-center">
+          <div class="col-md-7 text-center">
+            <h1 class=" heading text-uppercase text-white" data-aos="fade-up">Gallery</h1>
+            <p class="lead text-white mb-4" data-aos="fade-up" data-aos-delay="100">Glimpses from Mohammad Bakhshi's photography world </p>
+          </div>
+        </div>
+      </section>
+
+      <div class="site-section">
+
+
+        <div>
+          <div class=" text-center"> <!--I deleted "col-12" from class -->
+            <h1 class="heading photos-about-heading">Photos</h1>
+          </div>
+        </div>
+
+        
+        <section class="row align-items-stretch photos" id="section-photos">
+          <div class="row align-items-stretch">
+
+            <!--CHECK THESE ??? (Classes in this part)
+              This is for each image within gallery 
+            It used bootstrap
+            -->
+            <!--Image 1-->
+              <div class="col-12 col-md-6 col-lg-4 col-sm-12" data-aos="fade-up">
+                <a href="images/image-1.jpeg" class="d-block photo-item" data-fancybox="gallery"> 
+                  <img src="images/image-1.jpeg" alt="Image"> <!--This line is for Thumnail-->  <!--Deleted → class="img-fluid mb-0"-->
+                  <div class="photo-text-more">
+                    <span class="icon icon-eye"></span>
+                  </div>
+                </a>
+              </div>
+              
+
+              <!--Image 2-->
+              <div class="col-12 col-md-6 col-lg-4 col-sm-12" data-aos="fade-up" data-aos-delay="100">
+                <a href="images/image-2.jpeg" class="d-block photo-item" data-fancybox="gallery">
+                  <img src="images/image-2.jpeg" alt="Image" class="img-fluid mb-0">
+                  <div class="photo-text-more">
+                  <!-- <span class="icon icon-eye"></span> --> 
+                  </div>
+                </a>
+
+
+                <!--Image 3-->
+              </div>
+              <div class="col-12 col-md-6 col-lg-4 col-sm-12" data-aos="fade-up" data-aos-delay="300">
+                <a href="images/image-3.jpeg" class="d-block photo-item" data-fancybox="gallery">
+                  <img src="images/image-3.jpeg" alt="Image" class="img-fluid mb-0">
+                  <div class="photo-text-more">
+                    <span class="icon icon-eye"></span>
+                  </div>
+                </a>
+              </div>
+
+
+              <!--Image 4-->
+              <div class="col-12 col-md-6 col-lg-4 col-sm-12" data-aos="fade-up">
+                <a href="images/image-4.jpeg" class="d-block photo-item" data-fancybox="gallery">
+                  <img src="images/image-4.jpeg" alt="Image" class="img-fluid mb-0">
+                  <div class="photo-text-more">
+                    <span class="icon icon-eye"></span>
+                  </div>
+                </a>
+              </div>
+
+              <!--Image 5-->
+              <div class="col-12 col-md-6 col-lg-4 col-sm-12" data-aos="fade-up" data-aos-delay="100">
+                <a href="images/image-5.jpeg" class="d-block photo-item" data-fancybox="gallery">
+                  <img src="images/image-5.jpeg" alt="Image" class="img-fluid mb-0">
+                  <div class="photo-text-more">
+                    <span class="icon icon-eye"></span>
+                  </div>
+                </a>
+              </div>
+
+              <!--Image 6-->
+              <div class="col-12 col-md-6 col-lg-4 col-sm-12" data-aos="fade-up" data-aos-delay="200">
+                <a href="images/image-6.jpeg" class="d-block photo-item" data-fancybox="gallery">
+                  <img src="images/image-6.jpeg" alt="Image" class="img-fluid mb-0">
+                  <div class="photo-text-more">
+                    <span class="icon icon-eye"></span>
+                  </div>
+                </a>
+              </div>
+
+              <!--Image 7-->
+              <div class="col-12 col-md-6 col-lg-4 col-sm-12" data-aos="fade-up">
+                <a href="images/image-7.jpeg" class="d-block photo-item" data-fancybox="gallery">
+                  <img src="images/image-7.jpeg" alt="Image" class="img-fluid mb-0">
+                  <div class="photo-text-more">
+                    <span class="icon icon-eye"></span>
+                  </div>
+                </a>
+              </div>
+
+
+              <!--Image 8 =  The gardner--> 
+              <div class="col-12 col-md-6 col-lg-4 col-sm-12" data-aos="fade-up" data-aos-delay="100">
+                <a href="images/image-8.jpeg" class="d-block photo-item" data-fancybox="gallery">
+                  <img src="images/image-8.jpeg" alt="Image" class="img-fluid mb-0">
+                  <div class="photo-text-more">
+                    <span class="icon icon-eye"></span>
+                  </div>
+                </a>
+              </div>
+
+              <!--Image 9-->
+              <div class="col-12 col-md-6 col-lg-4 col-sm-12" data-aos="fade-up" data-aos-delay="200">
+                <a href="images/image-9.jpeg" class="d-block photo-item" data-fancybox="gallery">
+                  <img src="images/image-9-1.jpeg" alt="Image" class="img-fluid mb-0">
+                  <div class="photo-text-more">
+                    <span class="icon icon-eye"></span>
+                  </div>
+                </a>
+              </div>
+
+
+              <!--Image 10 -->
+              <div class="col-12 col-md-6 col-lg-4 col-sm-12" data-aos="fade-up">
+                <a href="images/image-10.jpeg" class="d-block photo-item" data-fancybox="gallery">
+                  <img src="images/image-10.jpeg" alt="Image" class="img-fluid mb-0">
+                  <div class="photo-text-more">
+                    <span class="icon icon-eye"></span>
+                  </div>
+                </a>
+              </div>
+
+              <!--Image 11-->
+              <div class="col-12 col-md-6 col-lg-4 col-sm-12" data-aos="fade-up" data-aos-delay="100">
+                <a href="images/image-11.jpeg" class="d-block photo-item" data-fancybox="gallery">
+                  <img src="images/image-11-1.jpeg" alt="Image" class="img-fluid mb-0">
+                  <div class="photo-text-more">
+                    <span class="icon icon-eye"></span>
+                  </div>
+                </a>
+              </div>
+
+              <!--Image 12-->
+              <div class="col-12 col-md-6 col-lg-4 col-sm-12" data-aos="fade-up" data-aos-delay="200">
+                <a href="images/image-12.jpeg" class="d-block photo-item" data-fancybox="gallery">
+                  <img src="images/image-12.jpeg" alt="Image" class="img-fluid mb-0">
+                  <div class="photo-text-more">
+                    <span class="icon icon-eye"></span>
+                  </div>
+                </a>
+              </div>
+
+              <!-- Image 13-->
+              <div class="col-12 col-md-6 col-lg-4 col-sm-12" data-aos="fade-up">
+                <a href="images/image-13.jpeg" class="d-block photo-item" data-fancybox="gallery">
+                  <img src="images//image-13.jpeg" alt="Image" class="img-fluid mb-0">
+                  <div class="photo-text-more">
+                    <span class="icon icon-eye"></span>
+                  </div>
+                </a>
+              </div>
+
+              <!--Image 14-->
+              <div class="col-12 col-md-6 col-lg-4 col-sm-12" data-aos="fade-up" data-aos-delay="100">
+                <a href="images/image-14.jpg" class="d-block photo-item" data-fancybox="gallery">
+                  <img src="images/image-14-1.jpg" alt="Image" class="img-fluid mb-0">
+                  <div class="photo-text-more">
+                    <span class="icon icon-eye"></span>
+                  </div>
+                </a>
+              </div>
+
+              <!--Image 15-->
+              <div class="col-12 col-md-6 col-lg-4 col-sm-12" data-aos="fade-up" data-aos-delay="200">
+                <a href="images/image-15.jpeg" class="d-block photo-item" data-fancybox="gallery">
+                  <img src="images/image-15.jpeg" alt="Image" class="img-fluid mb-0">
+                  <div class="photo-text-more">
+                    <span class="icon icon-eye"></span>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </section> 
+
+
+
+
+        <section class="site-section" id="section-about"></section> <!--Not really necessary-->
+          <h1 class= "heading photos-about-heading">About</h1>
+
+          <!--<div class="row justify-content-center"> -->
+
+            <!-- <div class="col-md-8"> -->
+
+                <!-- <h2 class="heading">About</h2> -->
+
+                <img src="images/image-profile.jpg" alt="profile image" class="rounded-circle profile-img"> <!--Deleted class "img-fluid" +  "mb-4" + "w-50"-->
+
+                <div data-aos="fade-up"  data-aos-delay="100">
+                  <h3 class="profile-name">Mohammad Bakhshi, I am</h3>
+
+
+                  <P>"In your light I learn how to love. In your beauty, how to make poems.</P>
+                  <p>   You dance inside my chest where no-one sees you, but sometimes I do, and that sight becomes this art."</p>
+                  <P class="about-quote-name">-Rumi, Mawlānā-</P>
+
+                  <p>"Beauty is the proper dwelling place for an enlightened consciousness." </p>
+                  <P class="about-quote-name">-Jordan Peterson-</P>
+
+                  <p>"I don't know anything with certainty, but seeing the stars makes me dream."</p>
+                  <p class="about-quote about-quote-name"">-Vincent van Gogh-</p>
+                  
+
+       
+
+                  
+                      
+        <footer">
+          <section class="site-section" id="section-contact">
+          
+
+          <!--LATER
+          ADD INSTAGRAM HERE 
+          -->
+            <div class="about-social">
+              <a href="https://www.instagram.com/asemanemo"><i class="fa-brands fa-instagram"></i> </a>
+            </div> 
+          
+
+             
+           
+          
+            
+          <div class=" text-center "> <!--Deleted class "col-md-12" -->
+            <p>Copyright &copy; 2022. All Rights Reserved. Designed by Asemanemo </p>
+          </div>
+        </footer>
+    </main>
+
+ 
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="js/jquery-migrate-3.0.1.min.js"></script>
+  <script src="js/jquery.easing.1.3.js"></script>
+  <script src="js/jquery-ui.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.stellar.min.js"></script>
+  <script src="js/jquery.countdown.min.js"></script>
+  <script src="js/jquery.magnific-popup.min.js"></script>
+  <script src="js/aos.js"></script>
+  <script src="js/lozad.min.js"></script>
+  
+
+  <script src="js/jquery.fancybox.min.js"></script>
+
+  <script src="js/main.js"></script>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  </body>
+</html>
